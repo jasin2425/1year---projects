@@ -1,0 +1,15 @@
+Jest to program który sprawdza różne parametry grafów:
+1.ciągu stopniowego;
+2.liczby składowych spójności;
+3.dwudzielności grafu;
+4.acentryczności wierzchołków (w ramach składowych spójności);
+ kolory wierzchołków (kolejne liczby naturalne od 1) uzyskane za pomocą algorytmów:
+5.zachłannego w kolejności wierzchołków zgodnej z numerem wierzchołka
+6.metodą LF (remisy rozwiązujemy przy pomocy numeru wierzchołka)
+7.liczba krawędzi dopełnienia grafu
+
+Wejście
+W pierwszej linii znajduje się liczba k grafów.
+W kolejnych liniach znajduje się k zestawów danych grafów.
+Pojedynczy zestaw danych zawiera liczbę n - rząd grafu - oraz listę sąsiadów w postaci liczba sąsiadów (s) wraz z s identyfikatorami sąsiadów.
+Identyfikatory sąsiadów to liczby z zakresu od 1 do n.
