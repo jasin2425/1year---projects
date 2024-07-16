@@ -1,0 +1,35 @@
+HEX
+Program który rozwiązuje różne zadania w grze HEX (na planszy heksagonalnej o rozmiarach od 1 do 11)
+
+Zasady:
+Rozgrywka jest prowadzona przez dwóch graczy (czerwonego i niebieskiego).
+Rozpoczynającym jest gracz czerwony.
+Gracze wykonują kolejno ruchy polegające na postawieniu pionka swojego koloru na dowolnym, dotychczas nie zajętym polu.
+Ten z graczy, który połączy ciągłą linią dwa brzegi planszy własnego koloru wygrywa.
+
+Wejscie
+
+Ciąg przypadków testowych, każdy z nich zaczyna się rysunkiem zawartości planszy oraz serią zapytań. Rozmiar planszy może wahać się od 1 do 11. Obecność pionka koloru czerwonego (gracz rozpoczynający) oznaczono literą: "r", a niebieskiego literą "b". Przykładowe plansze mogą wyglądać następująco:
+  Przykład wejscia:
+              ---
+           --<   >--
+        --< b >-<   >--
+     --< r >-<   >-<   >--
+    < b >-< b >-<   >-< r >
+     --<   >-< r >-< b >--
+        --<   >-< r >--
+           --<   >--
+              ---
+BOARD_SIZE 
+PAWNS_NUMBER 
+IS_BOARD_CORRECT
+IS_GAME_OVER
+IS_BOARD_POSSIBLE 
+CAN_RED_WIN_IN_1_MOVE_WITH_NAIVE_OPPONENT
+CAN_BLUE_WIN_IN_1_MOVE_WITH_NAIVE_OPPONENT
+CAN_RED_WIN_IN_2_MOVES_WITH_NAIVE_OPPONENT
+CAN_BLUE_WIN_IN_2_MOVES_WITH_NAIVE_OPPONENT
+CAN_RED_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
+CAN_BLUE_WIN_IN_1_MOVE_WITH_PERFECT_OPPONENT
+CAN_RED_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
+CAN_BLUE_WIN_IN_2_MOVES_WITH_PERFECT_OPPONENT
